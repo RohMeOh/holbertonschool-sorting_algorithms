@@ -25,6 +25,9 @@ void bubble_sort(int *array, size_t size);
 /* Insertion sort (doubly linked list) */
 void insertion_sort_list(listint_t **list);
 
+/* Selection sort */
+void selection_sort(int *array, size_t size);
+
 /* ===== Print helpers (provided) ===== */
 
 /* Prints an array */
