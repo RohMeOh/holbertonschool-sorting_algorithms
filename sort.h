@@ -28,6 +28,9 @@ void insertion_sort_list(listint_t **list);
 /* Selection sort */
 void selection_sort(int *array, size_t size);
 
+/* Quick sort (Lomuto) */
+void quick_sort(int *array, size_t size);
+
 /* ===== Print helpers (provided) ===== */
 
 /* Prints an array */
